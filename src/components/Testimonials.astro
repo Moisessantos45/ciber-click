@@ -1,0 +1,156 @@
+---
+const {} = Astro.props;
+---
+
+<section id="testimonials" class="py-24 bg-gradient-to-b from-white to-secondary/20 relative">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-dark mb-4">
+        Lo que dicen nuestros clientes
+      </h2>
+      <p class="text-xl text-text max-w-2xl mx-auto">
+        Miles de clientes satisfechos confían en nosotros
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Testimonial 1 -->
+      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl p-8 transition-all duration-300 transform hover:-translate-y-2 border border-secondary/30">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 bg-gradient-to-br from-primary to-primary/70 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+            JP
+          </div>
+          <div>
+            <p class="font-bold text-dark">Juan Pérez</p>
+            <div class="flex text-warning">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+        <p class="text-text leading-relaxed italic">
+          "El servicio técnico fue increíblemente rápido y profesional. Mi
+          computadora funciona como nueva. ¡100% recomendado!"
+        </p>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl p-8 transition-all duration-300 transform hover:-translate-y-2 border border-secondary/30">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 bg-gradient-to-br from-success to-success/70 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+            MG
+          </div>
+          <div>
+            <p class="font-bold text-dark">María García</p>
+            <div class="flex text-warning">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+        <p class="text-text leading-relaxed italic">
+          "La calidad de impresión es excelente y los precios son muy
+          competitivos. Sin duda mi lugar favorito para imprimir."
+        </p>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl p-8 transition-all duration-300 transform hover:-translate-y-2 border border-secondary/30">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 bg-gradient-to-br from-warning to-warning/70 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+            CR
+          </div>
+          <div>
+            <p class="font-bold text-dark">Carlos Rodríguez</p>
+            <div class="flex text-warning">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+        <p class="text-text leading-relaxed italic">
+          "Me salvaron el día con una reparación de celular de emergencia. Un
+          servicio de primera y muy amables."
+        </p>
+      </div>
+
+      <!-- Testimonial 4 -->
+      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl p-8 transition-all duration-300 transform hover:-translate-y-2 border border-secondary/30">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 bg-gradient-to-br from-primary to-primary/70 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+            AM
+          </div>
+          <div>
+            <p class="font-bold text-dark">Ana Martínez</p>
+            <div class="flex text-warning">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+        <p class="text-text leading-relaxed italic">
+          "Llevé mi impresora para mantenimiento y el servicio fue rápido y
+          eficiente. Ahora imprime sin problemas."
+        </p>
+      </div>
+
+      <!-- Testimonial 5 -->
+      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl p-8 transition-all duration-300 transform hover:-translate-y-2 border border-secondary/30">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 bg-gradient-to-br from-success to-success/70 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+            LH
+          </div>
+          <div>
+            <p class="font-bold text-dark">Luis Hernández</p>
+            <div class="flex text-warning">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+        <p class="text-text leading-relaxed italic">
+          "Excelente atención al cliente y precios justos. Definitivamente
+          volveré para futuras reparaciones."
+        </p>
+      </div>
+
+      <!-- Testimonial 6 -->
+      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl p-8 transition-all duration-300 transform hover:-translate-y-2 border border-secondary/30">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 bg-gradient-to-br from-warning to-warning/70 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+            SL
+          </div>
+          <div>
+            <p class="font-bold text-dark">Sofía López</p>
+            <div class="flex text-warning">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+        <p class="text-text leading-relaxed italic">
+          "El personal es muy conocedor y me ayudaron a resolver un problema de
+          software en mi laptop en minutos."
+        </p>
+      </div>
+    </div>
+
+    <!-- Trust badges -->
+    <div class="mt-16 text-center">
+      <div class="inline-flex flex-wrap justify-center gap-8 items-center">
+        <div class="flex items-center gap-2 text-text">
+          <svg class="w-6 h-6 text-success" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+          </svg>
+          <span class="font-semibold">Técnicos Certificados</span>
+        </div>
+        <div class="flex items-center gap-2 text-text">
+          <svg class="w-6 h-6 text-success" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+          </svg>
+          <span class="font-semibold">Garantía Incluida</span>
+        </div>
+        <div class="flex items-center gap-2 text-text">
+          <svg class="w-6 h-6 text-success" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+          </svg>
+          <span class="font-semibold">Pago Seguro</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

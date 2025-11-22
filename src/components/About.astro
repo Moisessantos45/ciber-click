@@ -1,0 +1,54 @@
+---
+const {} = Astro.props;
+---
+
+<section id="about" class="py-20 bg-white relative overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent"></div>
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="max-w-4xl mx-auto text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-dark mb-6">
+        Sobre Nosotros
+      </h2>
+      <p class="text-lg text-text leading-relaxed">
+        Con más de 10 años de experiencia en el sector, <span class="text-primary font-semibold">Ciber Click</span> se ha consolidado 
+        como líder en servicios digitales y técnicos. Nuestro compromiso es ofrecer soluciones 
+        rápidas, confiables y de alta calidad para particulares y empresas.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Feature 1 -->
+      <div class="text-center group">
+        <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-primary to-primary/70 rounded-2xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
+          <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-dark mb-3">Rapidez</h3>
+        <p class="text-text">Servicios express para que no pierdas tiempo. La mayoría de reparaciones en menos de 24 horas.</p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="text-center group">
+        <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-success to-success/70 rounded-2xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
+          <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-dark mb-3">Calidad</h3>
+        <p class="text-text">Técnicos certificados y equipamiento profesional garantizan resultados excepcionales.</p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="text-center group">
+        <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-warning to-warning/70 rounded-2xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
+          <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-dark mb-3">Precios Justos</h3>
+        <p class="text-text">Tarifas competitivas sin comprometer la calidad. Tu satisfacción es nuestra prioridad.</p>
+      </div>
+    </div>
+  </div>
+</section>
