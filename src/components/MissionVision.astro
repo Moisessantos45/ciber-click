@@ -1,0 +1,60 @@
+---
+const {} = Astro.props;
+---
+
+<section id="mission-vision" class="py-20 bg-gradient-to-b from-white to-secondary/20 relative overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent"></div>
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="max-w-4xl mx-auto text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-dark mb-4">
+        Misión y Visión
+      </h2>
+      <p class="text-lg text-text">
+        Nuestro compromiso y aspiraciones para el futuro
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <!-- Misión -->
+      <div class="group bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 transform hover:-translate-y-2 transition-all duration-300 hover:shadow-2xl border border-secondary/50 hover:border-primary/50">
+        <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-primary to-primary/70 rounded-2xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
+          <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+          </svg>
+        </div>
+        
+        <h3 class="text-3xl font-bold text-dark mb-6 text-center group-hover:text-primary transition-colors">
+          Misión
+        </h3>
+        
+        <p class="text-text text-center leading-relaxed text-lg">
+          Proporcionar soluciones digitales y técnicas de alta calidad, ofreciendo un servicio rápido, 
+          confiable y accesible que satisfaga las necesidades de nuestros clientes. Nos comprometemos 
+          a mantener los más altos estándares de excelencia, innovando constantemente para superar 
+          las expectativas y construir relaciones duraderas basadas en la confianza y el profesionalismo.
+        </p>
+      </div>
+
+      <!-- Visión -->
+      <div class="group bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 transform hover:-translate-y-2 transition-all duration-300 hover:shadow-2xl border border-secondary/50 hover:border-success/50">
+        <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-success to-success/70 rounded-2xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
+          <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+          </svg>
+        </div>
+        
+        <h3 class="text-3xl font-bold text-dark mb-6 text-center group-hover:text-success transition-colors">
+          Visión
+        </h3>
+        
+        <p class="text-text text-center leading-relaxed text-lg">
+          Ser reconocidos como la empresa líder en servicios digitales y técnicos de la región, 
+          destacando por nuestra innovación, calidad y atención al cliente. Aspiramos a expandir 
+          nuestros servicios y tecnología, manteniendo siempre nuestro compromiso con la excelencia 
+          y contribuyendo al desarrollo digital de nuestra comunidad.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
